@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MultiPage Registration Form</title>
+    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/main.js"></script>
+  </head>
+
+  <body>
+    <div class="errorwrp">
+      <div id="error_msg" class="error"></div>
+    </div>
+    <form action="" id="form">
+      <div class="registration-form">
+        <div class="main">
+          <div class="register">
+            <h2>Registration Form</h2>
+          </div>
+        </div>
+        <div class="form-content">
+          Name: <br>
+          <input
+            class="fname" 
+            type="text" 
+            id="fnamech" 
+            name="FirstName" 
+            placeholder="First"
+            />
+          <input
+            class="lname" 
+            type="text" 
+            id="lnamech" 
+            name="LastName" 
+            placeholder="Last"/>
+          <br />
+          <br />
+          Date of Birth: <br>
+          <input 
+          class="date-of-birth" 
+          type="date" /> <br>
+          <br />
+          
+          Email:<br>
+          <input 
+          class="email" 
+          type="email" 
+          id="emailch" /> <br>
+          <br>
+
+          Father's Name: <br>
+          <input
+            class="father-fname"
+            type="text"
+            id="ffnamech"
+            name="FirstName"
+            placeholder="First"
+          />
+          <input
+            class="father-lname"
+            type="text"
+            id="flnamech"
+            name="LastName"
+            placeholder="Last"
+          />
+          <br />
+          <br />
+          Mother's Name: <br>
+          <input
+            class="mother-fname"
+            type="text"
+            id="mfnamech"
+            name="FirstName"
+            placeholder="First"
+          />
+          <input
+            class="mother-lname"
+            type="text"
+            id="mlnamech"
+            name="LastName"
+            placeholder="Last"
+          />
+          <br>
+          <br>
+          Gender: <br>
+          <input type="radio" name="Gender">Male <br>
+          <input type="radio" name="Gender">Female <br>
+          <br>
+          Nationality: <br>
+          <input class="nationality" type="text" id="nationalitych"> <br />
+          <br>
+          Home Address: <br>
+          <input
+            class="street-address"
+            type="text"
+            id="streetaddressch"
+            name="StreetAddress"
+            placeholder="Street Address"
+          />
+          <br>
+          <br>
+          <input
+            class="city-address"
+            type="text"
+            id="cityaddressch"
+            name="city"
+            placeholder="City"
+          />
+          <input
+            class="country-address"
+            type="text"
+            id="countryaddressch"
+            name="country"
+            placeholder="Country"
+          />
+          <br>
+          <br>
+          Telephone-Home: <br />
+          <input
+            class="telephone-home"
+            type="text"
+            id="telhomech"
+            placeholder="### ### ####"
+          />
+          <br>
+          <br>
+          Telephone-Mobile: <br />
+          <input
+            class="telephone-mobile"
+            type="text"
+            id="telmobilech"
+            placeholder="### ### ####"
+          />
+          <br>
+          <br>
+          <br>
+          <div class="btn">
+            <input type="submit" value="Submit">
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

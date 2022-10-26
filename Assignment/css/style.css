@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.registration-form {
+  max-width: 900px;
+  width: 900px;
+  height: 780px;
+  background: #ceebfd;
+  padding: 30px 30px 30px 100px;
+}
+body {
+  background: white;
+}
+form {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.error {
+  display: none;
+  padding: 10px 20px;
+  position: absolute;
+  top: 50px;
+  border: 1px solid rgb(255, 59, 59);
+  background-color: rgb(250, 200, 200);
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 14px;
+  z-index: 20;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.main {
+  text-align: center;
+}
+.form-content {
+  justify-content: center;
+}
+.fname {
+  position: relative;
+  width: 400px;
+  height: 26px;
+}
+.lname {
+  position: relative;
+  width: 400px;
+  height: 26px;
+}
+.date-of-birth {
+  position: relative;
+  width: 808px;
+  height: 26px;
+}
+.email {
+  position: relative;
+  width: 808px;
+  height: 26px;
+}
+.father-fname {
+  position: relative;
+  width: 400px;
+  height: 26px;
+}
+.father-lname {
+  position: relative;
+  width: 400px;
+  height: 26px;
+}
+.mother-fname {
+  position: relative;
+  width: 400px;
+  height: 26px;
+}
+.mother-lname {
+  position: relative;
+  width: 400px;
+  height: 26px;
+}
+.nationality {
+  position: relative;
+  width: 808px;
+  height: 26px;
+}
+.home-address {
+  position: relative;
+  width: 200px;
+  height: 26px;
+}
+.street-address {
+  position: relative;
+  width: 808px;
+  height: 26px;
+}
+.city-address {
+  position: relative;
+  width: 400px;
+  height: 26px;
+}
+.country-address {
+  position: relative;
+  width: 400px;
+  height: 26px;
+}
+.telephone-home {
+  position: relative;
+  width: 808px;
+  height: 26px;
+}
+.telephone-mobile {
+  position: relative;
+  width: 808px;
+  height: 26px;
+}
+.btn {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 27px;
+}
+input[type='submit'] {
+  width: 100px;
+}
+.text-danger {
+  font-size: 10px;
+  color: red;
+}

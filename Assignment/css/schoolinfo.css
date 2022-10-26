@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .registration-form {
+    max-width: 900px;
+    width: 900px;
+    height: 780px;
+    background: #ceebfd;
+    padding: 30px 30px 30px 100px;
+  }
+  body {
+    background: white;
+  }
+  form {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .error {
+    display: none;
+    padding: 10px 20px;
+    position: absolute;
+    top: 50px;
+    border: 1px solid rgb(255, 59, 59);
+    background-color: rgb(250, 200, 200);
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    z-index: 20;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .main {
+    text-align: center;
+  }
+  .form-content {
+    justify-content: center;
+  }
+  .hsc-institute {
+    position: relative;
+    width: 808px;
+    height: 26px;
+  }
+  .hsc-board {
+    position: relative;
+    width: 808px;
+    height: 26px;
+  }
+  .hsc-score {
+    position: relative;
+    width: 808px;
+    height: 26px;
+  }
+  .ssc-institute {
+    position: relative;
+    width: 808px;
+    height: 26px;
+  }
+  .ssc-board {
+    position: relative;
+    width: 808px;
+    height: 26px;
+  }
+  .score-in-ssc {
+    position: relative;
+    width: 808px;
+    height: 26px;
+  }
+  .currently-pursuing {
+    position: relative;
+    width: 808px;
+    height: 26px;
+  }
+  .current-edu {
+    position: relative;
+    width: 808px;
+    height: 26px;
+  }
+  .overall-per {
+    position: relative;
+    width: 808px;
+    height: 26px;
+  }
+  .current-backlogs {
+    position: relative;
+    width: 808px;
+    height: 26px;
+  }
+  
+  .btn {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 27px;
+  }
+  input[type='submit'] {
+    width: 100px;
+  }
+  .text-danger {
+    font-size: 10px;
+    color: red;
+  }
+  

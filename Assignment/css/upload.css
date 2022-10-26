@@ -1,0 +1,17 @@
+.form-content{
+  max-width: 400px;
+  width: 200px;
+  height: 200px;
+  background: #ceebfd;
+  padding: 200px 200px 200px 200px;
+  margin: 100px 100px 100px 400px;
+  border: 0px solid;
+  border-radius: 6px;
+}
+form{
+    display: flex;
+}
+.sub-btn{
+  height: 25px;
+  width: 80px;
+}
